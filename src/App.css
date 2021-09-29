@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-content {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/3909258.jpg);
+  background-size: cover;
+  font-size: calc(10px + 2vmin);
+  color: white;
+ 
+
+}
+
+.App-link {
+  color: black;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form input {
+  height: 26px;
+  width: 100%;
+  display: flex;
+  vertical-align: auto;
+  align-items: center;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  border: solid 1px transparent;
+  border-bottom: solid 5px white;
+  border-radius: 5px;
+
+}
+
+form button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: rgba(17, 100, 0, 0.959);
+  height: 30px;
+  width: 120px;
+}
+
+
+
+h3 {
+  margin: 0;
+}
+
+p{
+  margin:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font:bold;
+}
+
+.list {
+  display: flex;
+  margin: 5px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  background-color:rgba(97, 96, 96, 0.753);
+  border: solid 1px transparent;
+  border-radius: 10px;
+  
+}
+
+.btn-delete {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+}
+
+.btn-delete:hover{
+  background-color: yellow;
+  color:black;
+}
+
+.btn-upload{
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+  
+}
+
+.btn-upload:hover{
+  background-color: yellow;
+  color:black;
+}
+
+.Contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.363);
+  border: solid 5px transparent;
+  width: 20%;
+}
+
+.acciones{
+  display:flex;
+  color:rgb(42, 131, 47);
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 300px;
+  height: 60px;
+  
+}
+
+h5{
+  padding:0;
+}
+
+
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.842);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width:20%;
+  border-radius:20px;
+  height:300px;
+  opacity: 1;
+  margin-top: -300px;
+}
+
+.input-box{
+  background-color: transparent;
+  border:transparent;
+  border-bottom: solid white;
+  border-radius:20px;
+  color:white;
+}
+
+.btn-guardar{
+  background-color: green;
+  color:white;
+  border-radius:10px;
+  border:transparent;
+  width:30%;
+  height:50px;
+  cursor:pointer;
+}
+
+.btn-guardar:hover{
+  background-color:yellow;
+  color:black;
+}
